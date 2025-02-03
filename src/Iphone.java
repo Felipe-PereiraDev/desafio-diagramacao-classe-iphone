@@ -1,4 +1,4 @@
-public class Iphone implements Ipod, Aparelho, Internet{
+public class Iphone implements Ipod, Phone, Internet{
     @Override
     public void ligar(String numero) {
         System.out.println("LIGANDO PARA " + numero);
